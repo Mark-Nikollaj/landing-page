@@ -15,7 +15,7 @@ body{
 }
 
 #header-logo{
-    font-size: 30px;
+    font-size: 40px;
     color: whitesmoke;
 }
 
@@ -56,12 +56,80 @@ h1{
 
 .content{
     display: flex;
+    margin: 30px;
 
 }
 
-.content-left,.content-right{
+.content-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+.content-right{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 50%;
+}
+
+img{
+    margin-bottom: 50px;
+}
+
+.p-first{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.sign-up-first-section{
+    background-color: #3882f6;
+    color: whitesmoke;
+    width: 100px;
+    height: 40px;
+    border: 1px;
+    border-color: #3882f6;
+    border-radius: 10px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.row-of-divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: 200px;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.box-box{ 
+    border: 5px solid  #1f2937;
+    width: 200px;
+    height: 200px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.p-second{
+    text-align: center;
+    font-size: 18px;
 }
